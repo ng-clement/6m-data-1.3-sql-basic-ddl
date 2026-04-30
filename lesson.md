@@ -340,7 +340,9 @@ FROM lesson.students;
 ### 💬 Reflection
 
 - When should you *not* use an index?
+  when data is small or often update on column
 - How does using a View simplify the work for a Data Analyst who only needs specific columns?
+  freq use of a set of columns
 
 ---
 
