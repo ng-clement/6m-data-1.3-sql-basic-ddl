@@ -95,7 +95,7 @@ CREATE TABLE lesson.users (
 
 ```sql
 -- View All table in the schema
-select * from duckdb_schemas;;
+select * from duckdb_schemas;
 ```
 
 > If you just want to create tables in the default (`main`) schema, you can omit the `lesson.` prefix.
