@@ -82,6 +82,7 @@ Or, to avoid errors if it already exists:
 CREATE SCHEMA IF NOT EXISTS lesson;
 ```
 
+
 **3. Creating your first Table:**
 
 ```sql
@@ -90,6 +91,11 @@ CREATE TABLE lesson.users (
   name VARCHAR,
   email VARCHAR
 );
+```
+
+```sql
+-- View All table in the schema
+select * from duckdb_schemas;;
 ```
 
 > If you just want to create tables in the default (`main`) schema, you can omit the `lesson.` prefix.
